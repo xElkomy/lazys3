@@ -11,10 +11,15 @@ $ ruby lazys3.rb <COMPANY>
 You must move this file `common_bucket_prefixes.txt` to `~/`
 It's easy to do 
  - git clone https://github.com/xElkomy/lazys3
+ - move the lazys3 to user dir `~/`
+
+```bash
+mv lazys3 ~/
+```
  - cd lazys3
 
 ```bash
-mv common_bucket_prefixes.txt ~/
+cp common_bucket_prefixes.txt ~/
 ```
 
 done
@@ -22,7 +27,5 @@ done
 # Authors
 - http://twitter.com/nahamsec
 - http://twitter.com/JobertAbma
+- http://twitter.com/xElkomy
 
-# Changelog 
-
-1.0 - Release
